@@ -110,3 +110,6 @@ grafana-protheus/
 volumes:
   - C:/TOTVS/protheus_data/logs/fontes:/logs/fontes
 ```
+## Exemplo Dashbaord
+<img width="1616" height="780" alt="image" src="https://github.com/user-attachments/assets/808fbc52-e205-4bb7-898f-6202039bfa48" />
+
