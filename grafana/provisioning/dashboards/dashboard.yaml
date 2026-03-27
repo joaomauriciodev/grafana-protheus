@@ -1,0 +1,9 @@
+apiVersion: 1
+
+providers:
+  - name: Protheus
+    type: file
+    disableDeletion: true     # não permite deletar pela interface
+    updateIntervalSeconds: 30 # recarrega o JSON se houver mudanças
+    options:
+      path: /etc/grafana/provisioning/dashboards
