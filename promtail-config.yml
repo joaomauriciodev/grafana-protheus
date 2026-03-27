@@ -17,4 +17,4 @@ scrape_configs:
           job: protheus
           ambiente: producao
           # ajuste o caminho para onde seus logs estão no host
-          __path__: C:/TOTVS/protheus_data/logs/fontes/*.log
+          __path__: /logs/fontes/*.log
